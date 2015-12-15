@@ -1,3 +1,5 @@
+# Final Review
+This is based on the solutions posted for the final exam review posted by the professor on the [course website](https://www.cs.purdue.edu/homes/cs252/FinalPreparationCS252-SOL.html).
 ## Question 1
 Complete the procedure runCommand( command, outputBuffer, bufferSize) that executes a command in a different process and stores its output in outputBuffer.  command is the name of the program with no arguments. See how main uses runCommand(). runCommand will return 0 on success or -1 otherwise. Hint: Use a pipe to communicate the parent and the child process running runCommand(). Have the parent read from the pipe and write into the outputBuffer.
 ```c
