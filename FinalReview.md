@@ -342,8 +342,8 @@ Network Address Translation.
 ```
 
 ## Question 14
-```
 Explain why NAT boxes can be used as firewalls to prevent unwanted connections. Also explain why it is not normally possible to run web servers behind a firewall and how this problem can be solved.
+```
 NAT box only passes packets if connection is initiated inside the network. If packet arrives to NAT box and does not have existing entry
 in NAT table, packet will be discarded. This will protect the private network from hacker attacks. It is often not possible to run
 webservers behind a firewall because connections will start from outside the network and there is no mapping in NAT table yet. 
