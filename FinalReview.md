@@ -330,8 +330,8 @@ delay so TCP is slow for those applications.
 ```
 
 ## Question 13
-```
 What does NAT stand for? Assume that a packet <A, 4563, X, 80> is sent from a host behind a NAT box to a webserver X. Describe the steps for the translation (6 steps) since it goes from the host A, through the NAT box, to X and then back from X to the NAT box to A.
+```
 Network Address Translation.
 1. Host A wants to establish connection with webserver X in the Internet.
 2. NAT box is default router so A sends TCP packet to it.
